@@ -89,3 +89,81 @@ i {
   color: var(--color-secondary);
 }
 
+header#header {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+}
+
+section#booking-content {
+  background-color: var(--color-secondary);
+  grid-column: center-start / col-end 6;
+  height: 400px;
+}
+
+section#booking-data {
+  background-color: var(--color-tertiary);
+  grid-column: col-start 7 / center-end;
+  height: 400px;
+}
+
+section#villas {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+section#motto {
+  height: 400px;
+  background-color: var(--color-secondary);
+  grid-column: container-start / container-end;
+}
+
+section#events-content {
+  height: 400px;
+  background-color: var(--color-tertiary);
+  grid-column: container-start / col-end 9;
+}
+
+
+
+section#events-text {
+  height: 400px;
+  background-color: var(--color-primary);
+  grid-column: col-start 10 / center-end;
+}
+
+section#gallery-text {
+  height: 400px;
+  background-color: var(--color-secondary);
+  grid-column: col-start / col-end 1;
+}
+
+section#gallery-carousel {
+  height: 400px;
+  background-color: var(--color-tertiary);
+  grid-column: col-start 2 / container-end;
+}
+
+section#features-content {
+  height: 400px;
+  background-color: var(--color-primary);
+  grid-column: container-start / col-end 9;
+}
+section#features-text {
+  height: 400px;
+  background-color: var(--color-secondary);
+  grid-column: col-start 10 / center-end 1;
+}
+
+section#testimonials {
+  height: 400px;
+  background-color: var(--color-tertiary);
+  grid-column: center-start / center-end;
+}
+
+section#footer {
+  height: 400px;
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+}
+
